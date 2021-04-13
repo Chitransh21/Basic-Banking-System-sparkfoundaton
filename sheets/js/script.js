@@ -6,7 +6,7 @@ function sendMoney(){
   
    if (enterAmount > 10000 ) {
 
-      alert("insufficient Balance.")
+      alert("transfer Amount exceed the Anount limit(₹10000).")
    } 
    else if(enterAmount >  parseInt(document.getElementById("myAccountBalance").innerText) ){
       alert(` Balance in account is   ₹${parseInt(document.getElementById("myAccountBalance").innerText)}.`)
